@@ -1,0 +1,36 @@
+.borderinv{
+    width: 1000px;
+    height: 233px;
+    margin-left: 50px;
+    overscroll-behavior-y: auto;
+    border-radius: 20px;
+    background:lightgrey;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.widget{
+     border:1px solid black;
+     background:whitesmoke;
+     float: left;
+     margin: 3px;
+     position: relative;
+     height: 110px;
+     padding: 5px 0 0 0;
+     width:100px;
+}
+.wrow{
+    width: 100%;
+    float: left;
+    margin:2px 0
+}
+.img{
+    height: 45px;
+    width: 95px;
+}
+.delete{
+    width: 15px;
+    height: 15px;
+    top: -22px;
+    position: relative;
+    left: 78px;
+}

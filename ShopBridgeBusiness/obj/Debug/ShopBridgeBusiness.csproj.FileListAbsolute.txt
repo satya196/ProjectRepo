@@ -1,0 +1,9 @@
+D:\SatyamWork\ShopBridgeBusiness\bin\Debug\ShopBridgeBusiness.dll
+D:\SatyamWork\ShopBridgeBusiness\bin\Debug\ShopBridgeBusiness.pdb
+D:\SatyamWork\ShopBridgeBusiness\bin\Debug\ShopBridgeConnectionHandler.dll
+D:\SatyamWork\ShopBridgeBusiness\bin\Debug\ShopBridgeConnectionHandler.pdb
+D:\SatyamWork\ShopBridgeBusiness\obj\Debug\ShopBridgeBusiness.csprojAssemblyReference.cache
+D:\SatyamWork\ShopBridgeBusiness\obj\Debug\ShopBridgeBusiness.csproj.CoreCompileInputs.cache
+D:\SatyamWork\ShopBridgeBusiness\obj\Debug\ShopBridgeBusiness.csproj.CopyComplete
+D:\SatyamWork\ShopBridgeBusiness\obj\Debug\ShopBridgeBusiness.dll
+D:\SatyamWork\ShopBridgeBusiness\obj\Debug\ShopBridgeBusiness.pdb

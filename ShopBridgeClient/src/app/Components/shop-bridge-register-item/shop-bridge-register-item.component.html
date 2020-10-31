@@ -1,0 +1,21 @@
+<div class="text-center" style="margin-left: 100px;">
+  <div  class="align-items-center">
+<form #f="ngForm" (ngSubmit)="onSubmit(f)" novalidate> 
+    <div class="col-md-2">
+    <label>Item Name:</label>
+    <input name="Name" [(ngModel)]="itemName" placeholder="EnterName" required>
+    </div>
+    <div class="col-md-2">
+    <label>Item Description:</label>
+    <input name="Description" [(ngModel)]="itemDesc" placeholder="Enter Description" required>
+    </div>
+    <div class="col-md-2">
+    <label>Item Price:</label>
+    <input type="number" name="Price" [(ngModel)]="itemPrice" placeholder="Enter Price" required>
+    </div>
+    <div class="col-md-2" style="margin-top: 23px; margin-left: -55px;">
+    <button [disabled]="!f.form.valid">Add Item</button>
+    </div>
+  </form>
+</div>
+</div>

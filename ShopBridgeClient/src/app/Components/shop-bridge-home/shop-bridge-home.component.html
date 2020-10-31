@@ -1,0 +1,23 @@
+<div class="text-center"><H2>ShopBridge</H2></div>
+<hr/>
+<div class="row" style="vertical-align:middle;">
+<div class="text-center col-md-12" style="left: 215px;">
+<app-shop-bridge-register-item (myEvent)="updateItemList($event)"></app-shop-bridge-register-item>
+</div>
+<div>
+<div class="text-center" style="margin-left: 400px;" >
+<label><h3>Inventory</h3></label>
+</div>
+<div class=" col-md-12 border borderinv" style="left: 215px;">
+    <div *ngFor="let item of ItemList">
+    <div class="widget">
+        <div class="wrow">{{item.Name}} </div>
+        <div (click)="deleteItem(item)" class="delete">&#x26D4;</div>
+        <div class="wrow" (click)="showDetail(item)">
+            <img class="img" src="assets/camera.png"/>
+        </div>
+        <div class="wrow text-center">${{item.Price}}</div>
+    </div>
+    </div>
+</div>
+</div>
