@@ -1,0 +1,8 @@
+1-Create DB With Name ShopBridge and run query from DBScript file
+2-Replace current connection string with your connection string in ShopBridgeAPI/ShopbridgeWeb/web.config for key "Dbstring" in app setting tag
+3-Open ShopBridge Client in VSCode IDE 
+4-open terminal and run - npm install
+5-to run client in terminal -ng serve
+6-open ShopBridge API open ShopBridgeAPI.sln using Visual studio 
+7-Run project 
+8-in browser open URL-"http://localhost:4200"
